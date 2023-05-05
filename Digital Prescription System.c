@@ -228,7 +228,7 @@ struct patient
 struct patient a;
 
 void addmedi(void);
-void addmedi(void)    //funtion that add books
+void addmedi(void)    //funtion that add medicines
 {
     system("cls");
     int i;
@@ -334,7 +334,7 @@ int getdata()
 }
 
 int checkid(int);
-int checkid(int t)  //check whether the book is exist in library or not
+int checkid(int t)  //check whether the medicine is exist in prescription or not
 {
     rewind(fp);
     while(fread(&a,sizeof(a),1,fp)==1)
@@ -346,7 +346,7 @@ int checkid(int t)  //check whether the book is exist in library or not
 char findmedi;
 
 void deletemedi(void);
-void deletemedi(void)    //funtion that add books
+void deletemedi(void)    //funtion that delete medicine
 {
     system("cls");
     system("color F4");
@@ -423,7 +423,7 @@ void deletemedi(void)    //funtion that add books
 }
 
 void editmedi(void);
-void editmedi(void)    //funtion that add books
+void editmedi(void)    //funtion that edit medicine
 {
     system("cls");
     int c=0;
@@ -484,7 +484,7 @@ void editmedi(void)    //funtion that add books
 }
 
 void searchmedi(void);
-void searchmedi(void)    //funtion that add books
+void searchmedi(void)    //funtion that search medicine
 {
     system("cls");
     int d;
@@ -560,7 +560,7 @@ void searchmedi(void)    //funtion that add books
 }
 
 void viewmedi(void);
-void viewmedi(void)    //funtion that add books
+void viewmedi(void)    //funtion that view medicine
 {
     int i=0,j;
     system("cls");
